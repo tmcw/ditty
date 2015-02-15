@@ -78,6 +78,8 @@ var Song = React.createClass({
                 className={'icon undo ' + (!SongStore.hasUndo() ? 'quiet' : '')}></a>
             <a onClick={actions.redo}
                 className={'icon redo ' + (!SongStore.hasRedo() ? 'quiet' : '')}></a>
+            <a onClick={actions.reset}
+                className={'icon trash'}></a>
         </div>
         <div className='center pad0y'>
             <a href='http://github.com/tmcw/ditty'

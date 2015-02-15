@@ -12,6 +12,11 @@ var actions = {
       actionType: SongConstants.UNDO
     });
   },
+  reset() {
+    Dispatcher.handleViewAction({
+      actionType: SongConstants.RESET
+    });
+  },
   flipNote(note) {
     Dispatcher.handleViewAction({
       actionType: SongConstants.NOTE_FLIP,

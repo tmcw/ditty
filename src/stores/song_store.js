@@ -27,6 +27,9 @@ var SongStore = makeStore({
       case SongConstants.UNDO:
         _idx = Math.max(_idx - 1, 0);
         break;
+      case SongConstants.RESET:
+        newVersion(song => song.updateIn(action.note, val => Immutable.Map()));
+        break;
       case SongConstants.REDO:
         _idx = Math.min(_idx + 1, _songs.size - 1);
         break;
