@@ -25,7 +25,8 @@
     "watchify": "^2.3.0"
   },
   "scripts": {
-    "start": "watchify -d site.js -o bundle.js & st -nc"
+    "start": "watchify -d site.js -o bundle.js & st -nc",
+    "build": "browserify site.js > bundle.js"
   },
   "author": "Tom MacWright",
   "license": "ISC"

@@ -52,7 +52,7 @@ var Song = React.createClass({
     actions.undo();
   },
   previewNote: _.debounce((beat, note) => {
-    synth.noteOn(note + 60, 80);
+    synth.noteOn(note + 69, 80);
   }, 100),
   noteOn(beat, note) {
     return this.state.song.getIn([beat, note]);
