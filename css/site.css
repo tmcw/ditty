@@ -1,0 +1,54 @@
+/*
+ * #bc4972
+ * #d3648b
+ * #d87598
+ */
+
+a { cursor: pointer; color: #fff; }
+a:hover { color: #eee; }
+.fix-width {
+    width:484px;
+    height:484px;
+    margin:40px auto;
+    box-sizing:border-box;
+}
+body {
+  background: #bc4972;
+  color:#fff;
+}
+
+.fill-pink {
+  background: #d2527f;
+}
+
+.keyline-all {
+  border:2px solid #fff;
+}
+
+.flex-beat {
+  width:30px;
+  display:inline-block;
+}
+
+
+.love-note {
+  border-bottom:1px solid rgba(0, 0, 0, 0.1);
+  border-right:1px solid rgba(0, 0, 0, 0.1);
+  height:30px;
+}
+
+.love-note:hover {
+  background:rgba(0, 0, 0, 0.1);
+}
+
+.note-on {
+  background:#fff;
+}
+
+.beat-on {
+  background:rgba(255, 255, 255, 0.1);
+}
+
+.love-note.note-on:hover {
+  background:rgba(255, 255, 255, 0.8);
+}
