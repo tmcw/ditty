@@ -1,1 +1,3 @@
-# lovenote
+# ditty
+
+an online music thing
