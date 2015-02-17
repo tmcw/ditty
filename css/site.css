@@ -30,11 +30,18 @@ body {
   display:inline-block;
 }
 
+.flex-beat.resolution-32 {
+  width:15px;
+}
 
 .love-note {
   border-bottom:1px solid rgba(0, 0, 0, 0.1);
   border-right:1px solid rgba(0, 0, 0, 0.1);
   height:30px;
+}
+
+.love-note.resolution-32 {
+  height:15px;
 }
 
 .love-note:hover {
