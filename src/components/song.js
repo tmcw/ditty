@@ -1,4 +1,5 @@
 var React = require('react');
+var DocumentTitle = require('react-document-title');
 var _ = require('lodash');
 var actions = require('../actions.js');
 var Immutable = require('immutable');
@@ -71,7 +72,8 @@ var Song = React.createClass({
     });
   },
   render: function() {
-    return <div>
+    return <DocumentTitle title='♥♫❤♬'>
+      <div>
         <div className='fill-pink fix-width keyline-all round'>
           {_.range(0, this.state.resolution[0]).map((beat) => {
             return <div
@@ -108,7 +110,8 @@ var Song = React.createClass({
             <a href='http://github.com/tmcw/ditty'
                 className='icon github'></a>
         </div>
-    </div>;
+      </div>
+    </DocumentTitle>;
   }
 });
 
