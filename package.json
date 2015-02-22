@@ -23,10 +23,12 @@
     ]
   },
   "devDependencies": {
+    "budo": "^1.0.0",
+    "react-keybinding": "^1.1.0",
     "watchify": "^2.3.0"
   },
   "scripts": {
-    "start": "watchify -d site.js -o bundle.js & st -nc",
+    "start": "budo site.js -o bundle.js --live",
     "build": "browserify site.js > bundle.js"
   },
   "author": "Tom MacWright",

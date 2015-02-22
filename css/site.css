@@ -12,6 +12,11 @@ a:hover { color: #eee; }
     margin:40px auto;
     box-sizing:border-box;
 }
+.same-width {
+    width:484px;
+    margin:40px auto;
+    box-sizing:border-box;
+}
 body {
   background: #bc4972;
   color:#fff;
@@ -46,6 +51,10 @@ body {
 
 .love-note:hover {
   background:rgba(0, 0, 0, 0.1);
+}
+
+.cursor-on {
+  background:rgba(255, 255, 255, 0.3);
 }
 
 .note-on {
