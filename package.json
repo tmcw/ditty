@@ -6,13 +6,13 @@
   "dependencies": {
     "6to5ify": "^4.1.0",
     "brfs": "^1.3.0",
-    "browserify": "^8.1.3",
-    "flux": "^2.0.1",
-    "lodash": "^3.2.0",
-    "object-assign": "^2.0.0",
-    "react": "^0.12.2",
-    "react-document-title": "^1.0.1",
-    "react-router": "^0.11.6",
+    "browserify": "^14.3.0",
+    "flux": "^3.1.2",
+    "lodash": "^4.17.4",
+    "object-assign": "^4.1.1",
+    "react": "^15.5.3",
+    "react-document-title": "^2.0.2",
+    "react-router": "^4.0.0",
     "timbre": "^14.11.25",
     "xtend": "^4.0.0"
   },
@@ -23,9 +23,9 @@
     ]
   },
   "devDependencies": {
-    "budo": "^1.0.0",
-    "react-keybinding": "^1.1.0",
-    "watchify": "^2.3.0"
+    "budo": "^9.4.7",
+    "react-keybinding": "^3.0.0",
+    "watchify": "^3.9.0"
   },
   "scripts": {
     "start": "budo site.js -o bundle.js --live",
