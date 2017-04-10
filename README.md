@@ -1,5 +1,7 @@
 # ditty
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/ditty.svg)](https://greenkeeper.io/)
+
 This is an online grid-based [music sequencer](http://en.wikipedia.org/wiki/Music_sequencer).
 
 It's also an example of a [React.js](http://facebook.github.io/react/)
